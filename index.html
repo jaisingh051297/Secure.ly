@@ -1,0 +1,96 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>   
+       <title>Secure.ly</title> 
+
+       <link href="style.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+       
+       
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top navbar-inverse">
+          <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  Secure.ly</a>
+             </div>
+          </div>
+         </nav>
+         
+
+       
+    <div class ="container">
+        <div class="container">  
+          <h1>                                             <br>
+          </h1>
+          <div class="jumbotron text-center">
+              <h1>You might be hacked !</h1>
+              <p>Don't belive me ? Check yourself</p>
+                <p><a class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#emailModal"> Check account</a></p>
+          </div>
+          <div id="message">
+           </div>
+           <div class="result" id="result">
+  
+           </div>
+         </div>
+        </div>
+      
+       
+        <div class="container">
+
+          <div class="row">
+            <h1>                                                                                                 
+                                                       
+             <br> 
+                                                        
+            </h1>
+             <div class=" col-12 col-md-6">
+ 
+                 <marquee><img src="https://hacked.com/wp-content/uploads/2016/04/Hacker-keyboard.jpg" width="75%"></marquee></div>
+            <div class="col-12 col-md-6">
+               <marquee>  <img src="https://3vowli249lp13hl4bz2ku62r-wpengine.netdna-ssl.com/wp-content/uploads/Cybersecurity-1200x1200.jpg" width="75%"> </marquee> </div>
+           </div>
+           <h1>                                                            
+             <br></h1>
+         </div>
+
+
+
+      <!-- Modal -->
+      <div class="modal fade email-checker" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="gridsystemModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="gridsystemModalLabel">Email Checker</h4>
+            </div>
+            
+
+
+            <div class="modal-body">
+                <div>
+                    <input class="text-center" type="email" placeholder="Enter email address here" id="id_email">
+                </div>  
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button id="btn_email" type="button" class="btn btn-primary" onclick="checkEmail()">Check Email</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <script src="scripts.js"></script>
+    
+    </body>
+</html>
